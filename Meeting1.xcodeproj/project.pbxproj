@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Meeting1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Meeting1AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7BE96F75111152990025F095 /* ApplicationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE96F6F111152450025F095 /* ApplicationTest.m */; };
+		7BE96F761111529F0025F095 /* UnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE96F73111152550025F095 /* UnitTest.m */; };
+		7BE970CF111158DA0025F095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		7BE9712D111158E10025F095 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7BE9712E111158E10025F095 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		7BE97141111159630025F095 /* GTMUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE97140111159630025F095 /* GTMUnitTest.m */; };
+		7BE97157111159ED0025F095 /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE96FD3111157AD0025F095 /* GTMIPhoneUnitTestDelegate.m */; };
+		7BE97158111159ED0025F095 /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE96FD4111157AD0025F095 /* GTMIPhoneUnitTestMain.m */; };
+		7BE97159111159ED0025F095 /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE96FC0111157520025F095 /* GTMSenTestCase.m */; };
+		7BE9716511115A5B0025F095 /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9716411115A5B0025F095 /* GTMObjC2Runtime.m */; };
+		7BE9719111115DAA0025F095 /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9718F11115DAA0025F095 /* CurrentLocationViewController.m */; };
+		7BE9719211115DAA0025F095 /* CurrentLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9719011115DAA0025F095 /* CurrentLocationViewController.xib */; };
+		7BE971B0111164000025F095 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE971AF111164000025F095 /* CoreLocation.framework */; };
+		7BE971F9111165DC0025F095 /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9718F11115DAA0025F095 /* CurrentLocationViewController.m */; };
+		7BE9720D111165F00025F095 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE971AF111164000025F095 /* CoreLocation.framework */; };
+		7BE9723C111167AC0025F095 /* Meeting1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Meeting1AppDelegate.m */; };
+		7BE9723D111167AC0025F095 /* CurrentLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9719011115DAA0025F095 /* CurrentLocationViewController.xib */; };
+		7BE9732E11116C3A0025F095 /* Meeting1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Meeting1AppDelegate.m */; };
+		7BE9732F11116C3A0025F095 /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9718F11115DAA0025F095 /* CurrentLocationViewController.m */; };
+		7BE9733011116C3A0025F095 /* CurrentLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9719011115DAA0025F095 /* CurrentLocationViewController.xib */; };
+		7BE9733111116C3A0025F095 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		7BE9733211116C3A0025F095 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE971AF111164000025F095 /* CoreLocation.framework */; };
+		7BE9733311116C3A0025F095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		7BE9733411116C3A0025F095 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7BE9733511116C4E0025F095 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7BE9733611116C600025F095 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7BE9733711116C760025F095 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		7BE9735A11116D8A0025F095 /* ApplicationTests.octest in Resources */ = {isa = PBXBuildFile; fileRef = 7BE96F5B1111517F0025F095 /* ApplicationTests.octest */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BE9734811116D050025F095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE96F5A1111517F0025F095;
+			remoteInfo = ApplicationTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Meeting1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting1AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Meeting1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meeting1AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Meeting1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeting1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Meeting1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting1_Prefix.pch; sourceTree = "<group>"; };
+		7BE96E67111149830025F095 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE96E68111149830025F095 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		7BE96F5B1111517F0025F095 /* ApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE96F5C1111517F0025F095 /* ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		7BE96F6E111152450025F095 /* ApplicationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationTest.h; sourceTree = "<group>"; };
+		7BE96F6F111152450025F095 /* ApplicationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationTest.m; sourceTree = "<group>"; };
+		7BE96F72111152550025F095 /* UnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTest.h; sourceTree = "<group>"; };
+		7BE96F73111152550025F095 /* UnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitTest.m; sourceTree = "<group>"; };
+		7BE96FBD111157320025F095 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		7BE96FBF111157520025F095 /* GTMSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSenTestCase.h; sourceTree = "<group>"; };
+		7BE96FC0111157520025F095 /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSenTestCase.m; sourceTree = "<group>"; };
+		7BE96FCC1111578F0025F095 /* Meeting1GTMTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeting1GTMTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE96FCE1111578F0025F095 /* Meeting1GTMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meeting1GTMTests-Info.plist"; sourceTree = "<group>"; };
+		7BE96FD2111157AD0025F095 /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
+		7BE96FD3111157AD0025F095 /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
+		7BE96FD4111157AD0025F095 /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestMain.m; sourceTree = "<group>"; };
+		7BE97140111159630025F095 /* GTMUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMUnitTest.m; sourceTree = "<group>"; };
+		7BE9716311115A5B0025F095 /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		7BE9716411115A5B0025F095 /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
+		7BE9718E11115DAA0025F095 /* CurrentLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentLocationViewController.h; sourceTree = "<group>"; };
+		7BE9718F11115DAA0025F095 /* CurrentLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationViewController.m; sourceTree = "<group>"; };
+		7BE9719011115DAA0025F095 /* CurrentLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentLocationViewController.xib; sourceTree = "<group>"; };
+		7BE971AF111164000025F095 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7BE9732811116BF30025F095 /* Meetin1Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetin1Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE9732A11116BF40025F095 /* Meetin1Testing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meetin1Testing-Info.plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Meeting1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Meeting1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				7BE971B0111164000025F095 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96E64111149830025F095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96F581111517F0025F095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96FCA1111578F0025F095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE970CF111158DA0025F095 /* Foundation.framework in Frameworks */,
+				7BE9712D111158E10025F095 /* UIKit.framework in Frameworks */,
+				7BE9712E111158E10025F095 /* CoreGraphics.framework in Frameworks */,
+				7BE9720D111165F00025F095 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE9732611116BF30025F095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9733111116C3A0025F095 /* CoreGraphics.framework in Frameworks */,
+				7BE9733211116C3A0025F095 /* CoreLocation.framework in Frameworks */,
+				7BE9733311116C3A0025F095 /* Foundation.framework in Frameworks */,
+				7BE9733411116C3A0025F095 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Meeting1AppDelegate.h */,
+				1D3623250D0F684500981E51 /* Meeting1AppDelegate.m */,
+				7BE9718E11115DAA0025F095 /* CurrentLocationViewController.h */,
+				7BE9718F11115DAA0025F095 /* CurrentLocationViewController.m */,
+				7BE9719011115DAA0025F095 /* CurrentLocationViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Meeting1.app */,
+				7BE96E67111149830025F095 /* Tests.octest */,
+				7BE96F5B1111517F0025F095 /* ApplicationTests.octest */,
+				7BE96FCC1111578F0025F095 /* Meeting1GTMTests.app */,
+				7BE9732811116BF30025F095 /* Meetin1Testing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7BE96F6D111151FC0025F095 /* ApplicationTests */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				7BE96FB3111156F00025F095 /* GTM */,
+				7BE9713A1111592E0025F095 /* GTMTests */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				7BE96E22111146890025F095 /* Tests */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Meeting1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BE96F5C1111517F0025F095 /* ApplicationTests-Info.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Meeting1-Info.plist */,
+				7BE96FCE1111578F0025F095 /* Meeting1GTMTests-Info.plist */,
+				7BE9732A11116BF40025F095 /* Meetin1Testing-Info.plist */,
+				7BE96E68111149830025F095 /* Tests-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				7BE971AF111164000025F095 /* CoreLocation.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BE96E22111146890025F095 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7BE96F72111152550025F095 /* UnitTest.h */,
+				7BE96F73111152550025F095 /* UnitTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7BE96F6D111151FC0025F095 /* ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BE96F6E111152450025F095 /* ApplicationTest.h */,
+				7BE96F6F111152450025F095 /* ApplicationTest.m */,
+			);
+			path = ApplicationTests;
+			sourceTree = "<group>";
+		};
+		7BE96FB3111156F00025F095 /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9715C11115A280025F095 /* Foundation */,
+				7BE96FBE111157350025F095 /* UnitTesting */,
+				7BE96FBD111157320025F095 /* GTMDefines.h */,
+			);
+			path = GTM;
+			sourceTree = "<group>";
+		};
+		7BE96FBE111157350025F095 /* UnitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				7BE96FD2111157AD0025F095 /* GTMIPhoneUnitTestDelegate.h */,
+				7BE96FD3111157AD0025F095 /* GTMIPhoneUnitTestDelegate.m */,
+				7BE96FD4111157AD0025F095 /* GTMIPhoneUnitTestMain.m */,
+				7BE96FBF111157520025F095 /* GTMSenTestCase.h */,
+				7BE96FC0111157520025F095 /* GTMSenTestCase.m */,
+			);
+			path = UnitTesting;
+			sourceTree = "<group>";
+		};
+		7BE9713A1111592E0025F095 /* GTMTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BE97140111159630025F095 /* GTMUnitTest.m */,
+			);
+			path = GTMTests;
+			sourceTree = "<group>";
+		};
+		7BE9715C11115A280025F095 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9716311115A5B0025F095 /* GTMObjC2Runtime.h */,
+				7BE9716411115A5B0025F095 /* GTMObjC2Runtime.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Meeting1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Meeting1" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meeting1;
+			productName = Meeting1;
+			productReference = 1D6058910D05DD3D006BFB54 /* Meeting1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BE96E66111149830025F095 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE96E6B111149830025F095 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				7BE96E62111149830025F095 /* Resources */,
+				7BE96E63111149830025F095 /* Sources */,
+				7BE96E64111149830025F095 /* Frameworks */,
+				7BE96E65111149830025F095 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 7BE96E67111149830025F095 /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7BE96F5A1111517F0025F095 /* ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE96F5F111151800025F095 /* Build configuration list for PBXNativeTarget "ApplicationTests" */;
+			buildPhases = (
+				7BE96F561111517F0025F095 /* Resources */,
+				7BE96F571111517F0025F095 /* Sources */,
+				7BE96F581111517F0025F095 /* Frameworks */,
+				7BE96F591111517F0025F095 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApplicationTests;
+			productName = ApplicationTests;
+			productReference = 7BE96F5B1111517F0025F095 /* ApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7BE96FCB1111578F0025F095 /* Meeting1GTMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE96FD1111157900025F095 /* Build configuration list for PBXNativeTarget "Meeting1GTMTests" */;
+			buildPhases = (
+				7BE96FC81111578F0025F095 /* Resources */,
+				7BE96FC91111578F0025F095 /* Sources */,
+				7BE96FCA1111578F0025F095 /* Frameworks */,
+				7BE970271111580D0025F095 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meeting1GTMTests;
+			productName = Meeting1GTMTests;
+			productReference = 7BE96FCC1111578F0025F095 /* Meeting1GTMTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BE9732711116BF30025F095 /* Meetin1Testing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE9732D11116BF50025F095 /* Build configuration list for PBXNativeTarget "Meetin1Testing" */;
+			buildPhases = (
+				7BE9732411116BF30025F095 /* Resources */,
+				7BE9732511116BF30025F095 /* Sources */,
+				7BE9732611116BF30025F095 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BE9734911116D050025F095 /* PBXTargetDependency */,
+			);
+			name = Meetin1Testing;
+			productName = Meetin1Testing;
+			productReference = 7BE9732811116BF30025F095 /* Meetin1Testing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Meeting1" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BE96F5A1111517F0025F095 /* ApplicationTests */,
+				1D6058900D05DD3D006BFB54 /* Meeting1 */,
+				7BE96FCB1111578F0025F095 /* Meeting1GTMTests */,
+				7BE96E66111149830025F095 /* Tests */,
+				7BE9732711116BF30025F095 /* Meetin1Testing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				7BE9719211115DAA0025F095 /* CurrentLocationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96E62111149830025F095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96F561111517F0025F095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96FC81111578F0025F095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9723D111167AC0025F095 /* CurrentLocationViewController.xib in Resources */,
+				7BE9733611116C600025F095 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE9732411116BF30025F095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9735A11116D8A0025F095 /* ApplicationTests.octest in Resources */,
+				7BE9733011116C3A0025F095 /* CurrentLocationViewController.xib in Resources */,
+				7BE9733511116C4E0025F095 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BE96E65111149830025F095 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		7BE96F591111517F0025F095 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		7BE970271111580D0025F095 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\"${PROJECT_DIR}\"/GTM/UnitTesting/RunIPhoneUnitTest.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Meeting1AppDelegate.m in Sources */,
+				7BE9719111115DAA0025F095 /* CurrentLocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96E63111149830025F095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE96F761111529F0025F095 /* UnitTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96F571111517F0025F095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE96F75111152990025F095 /* ApplicationTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE96FC91111578F0025F095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE97141111159630025F095 /* GTMUnitTest.m in Sources */,
+				7BE97157111159ED0025F095 /* GTMIPhoneUnitTestDelegate.m in Sources */,
+				7BE97158111159ED0025F095 /* GTMIPhoneUnitTestMain.m in Sources */,
+				7BE97159111159ED0025F095 /* GTMSenTestCase.m in Sources */,
+				7BE9716511115A5B0025F095 /* GTMObjC2Runtime.m in Sources */,
+				7BE971F9111165DC0025F095 /* CurrentLocationViewController.m in Sources */,
+				7BE9723C111167AC0025F095 /* Meeting1AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE9732511116BF30025F095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9732E11116C3A0025F095 /* Meeting1AppDelegate.m in Sources */,
+				7BE9732F11116C3A0025F095 /* CurrentLocationViewController.m in Sources */,
+				7BE9733711116C760025F095 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BE9734911116D050025F095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BE96F5A1111517F0025F095 /* ApplicationTests */;
+			targetProxy = 7BE9734811116D050025F095 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Meeting1_Prefix.pch;
+				INFOPLIST_FILE = "Meeting1-Info.plist";
+				PRODUCT_NAME = Meeting1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Meeting1_Prefix.pch;
+				INFOPLIST_FILE = "Meeting1-Info.plist";
+				PRODUCT_NAME = Meeting1;
+			};
+			name = Release;
+		};
+		7BE96E69111149830025F095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7BE96E6A111149830025F095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		7BE96F5D111151800025F095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "ApplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ApplicationTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7BE96F5E111151800025F095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "ApplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ApplicationTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		7BE96FCF111157900025F095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Meeting1GTMTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Meeting1GTMTests;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		7BE96FD0111157900025F095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Meeting1GTMTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Meeting1GTMTests;
+				SDKROOT = iphoneos3.1.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		7BE9732B11116BF40025F095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Meetin1Testing-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Meetin1Testing;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		7BE9732C11116BF40025F095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Meetin1Testing-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Meetin1Testing;
+				SDKROOT = iphoneos3.1.2;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Meeting1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE96E6B111149830025F095 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE96E69111149830025F095 /* Debug */,
+				7BE96E6A111149830025F095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE96F5F111151800025F095 /* Build configuration list for PBXNativeTarget "ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE96F5D111151800025F095 /* Debug */,
+				7BE96F5E111151800025F095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE96FD1111157900025F095 /* Build configuration list for PBXNativeTarget "Meeting1GTMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE96FCF111157900025F095 /* Debug */,
+				7BE96FD0111157900025F095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE9732D11116BF50025F095 /* Build configuration list for PBXNativeTarget "Meetin1Testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE9732B11116BF40025F095 /* Debug */,
+				7BE9732C11116BF40025F095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Meeting1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

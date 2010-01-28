@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Meeting1' target in the 'Meeting1' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
